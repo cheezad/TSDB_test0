@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tsdb-test0"
+version = "0.1.0"
+description = ""
+authors = ["cheezad <cheezedezy0409@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.25"
+fastapi = "^0.109.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
